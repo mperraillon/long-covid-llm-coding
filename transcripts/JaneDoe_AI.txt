@@ -1,0 +1,82 @@
+Example with synthetic interview showing the transcription structure. 
+
+Interviewer
+Okay, we can go ahead and get started. I'll ask you a few quick questions about your background and your workplace first. So, how long have you been practicing medicine?
+
+Physician
+About 18 years now.
+
+Interviewer
+And what's your specialty?
+
+Physician
+General internal medicine. Primary care.
+
+Interviewer
+And what's your role at your current institution?
+
+Physician
+I'm an associate professor of medicine in the Division of General Internal Medicine, and I'm a primary care physician in our general medicine clinic.
+
+Interviewer
+And how long have you been in that role?
+
+Physician
+In the primary care faculty position, about 14 years. I made associate professor a few years ago, but I don't think that part matters much for what you're asking.
+
+Interviewer
+That's a great milestone, congratulations. And what kind of patients do you see, age, setting, some of their common concerns?
+
+Physician
+It's all outpatient, primary care. Mostly adults across the spectrum, but my panel skews a little older, so the average is probably mid-50s to 60s. I see them for acute visits, for chronic disease management, diabetes, hypertension, that kind of thing, and for annual wellness visits.
+
+Interviewer
+The full range, then. And on average, how much time do you have with each patient?
+
+Physician
+For an acute visit it's about 15 minutes. For an annual it's more like 30, sometimes 40 if it's a complicated patient.
+
+Interviewer
+Okay. And do you refer patients out to specialty care often, or do you tend to manage complex cases yourself?
+
+Physician
+Honestly, both. I manage a lot of complex chronic disease in the clinic, that's most of my day. But there are things I won't try to handle on my own. Long COVID is one of them, actually. If I think someone has it, I refer them out rather than work it up myself.
+
+Interviewer
+And just to confirm, you said general internal medicine, right?
+
+Physician
+Yes, general internal medicine.
+
+Interviewer
+Great. So now I'll move into some questions specifically about long COVID and your experience with it. To start, how do you define long COVID?
+
+Physician
+So, my understanding is that it's not one single thing. It really depends on the person and what they're dealing with. Some patients have ongoing respiratory problems after the initial infection, shortness of breath, reduced exercise tolerance, sometimes lingering oxygen needs if there was real lung injury. Then there's a whole group where it's more about fatigue, this post-exertional crash where they do a little too much and they're wiped out for days. And then some people describe the cognitive piece, the "brain fog," trouble with memory and concentration. A few have what looks like autonomic stuff, racing heart when they stand up, dizziness. So I tend to think of it as having different flavors depending on how it shows up.
+
+Interviewer
+And the definition you just described, is that based on any working definitions in the literature, or from any professional organizations?
+
+Physician
+I mean, I've seen the formal definitions, I know the WHO and the CDC have published criteria, and I've come across them at a conference and in a couple of articles. But what I just gave you is more off the cuff, how I think about it in clinic rather than something I looked up this morning. I do know the timing matters, that the symptoms have to persist for some months after the acute infection, not just the first couple of weeks. That's the "long" part. But I'll be honest, I didn't study for this, so I'm not going to quote you the exact wording.
+
+Interviewer
+No, that's perfect, that's actually what we want, so we're not biasing it.
+
+Physician
+Right, I figured you wanted how I actually work with it, not a textbook answer.
+
+Interviewer
+Exactly. Do you have any concerns about the definitions of long COVID that are currently being used? Maybe thinking back to that conference or those articles?
+
+Physician
+Yeah, a few. The main one is that it's a syndrome made up of a lot of different presentations, so it's not like diagnosing strep with a throat swab or pneumonia with a chest X-ray. There's no single test, no clean biomarker that tells me yes or no. And because the criteria are fairly broad, you end up with patients who clearly have something going on but whose symptoms overlap with a dozen other conditions, depression, thyroid problems, deconditioning, sleep issues. So part of my concern is that the label can be both too broad and not specific enough at the same time. The timing piece isn't the hard part, what's hard is that what a given patient actually needs differs enormously depending on which manifestation they have. So I guess what I'm saying is, it's complicated, and I try not to overthink the labeling. Our long COVID clinic here has basically told us, if you think a patient might have it, just send them and we'll sort it out. Sometimes they find it's something else entirely. So I don't feel like I have to check a box and confirm the definition myself before I refer. They'll take it from there. Does that make sense?
+
+Interviewer
+It does, yeah. It sounds like that relationship with the clinic takes a lot of pressure off. Staying on training for a second, you mentioned a conference. Have you had any other training or guidance on long COVID, and if so, from whom?
+
+Physician
+A bit, here and there. There was a department grand rounds on it maybe a year or two ago, and I've done one or two online webinars. Beyond that, a lot of what I rely on is informal, the clinic that handles these patients sends back really thorough notes, so I've learned a fair amount just from reading their assessments and recommendations. And I'll use a clinical reference tool when something specific comes up. But I haven't had any kind of formal, structured course on it. It's been more piecing it together as the field has evolved.
+
+Interviewer
+That makes sense, and it sounds pretty common from what we've heard.

@@ -1,0 +1,208 @@
+Interviews were conducted with healthcare providers to understand how they use the Long COVID ICD-10 diagnosis code U09.9, among other topics related to Long COVID. Your task is to carefully read the list of codes and their definition and inclusion criteria. Then you will code an interview. Double-check your work. 
+
+STRICT VERBATIM REQUIREMENT (CRITICAL):
+* You MUST copy the paragraph EXACTLY as it appears in the transcript. 
+* DO NOT summarize, shorten, paraphrase, or use ellipses (…) under ANY circumstances. 
+* DO NOT omit any words, even if the paragraph is long or repetitive. 
+* DO NOT clean up grammar, remove filler words, or modify punctuation. 
+* The paragraph must be a full, word-for-word reproduction of the original transcript text. 
+* If the paragraph is long, include it in full anyway. 
+If you fail to reproduce the paragraph verbatim, the response is incorrect.
+
+**Other Context**
+- Interviewees are medical providers.
+- When providers discuss symptoms, they refer to patients.
+
+**Rules to follow**
+- Apply a code only when there is clear evidence in the passage.
+- Multiple codes may be applied only if each is independently supported.
+- Prefer to under-code than to over-code.
+- Do not infer beyond what is stated or strongly implied.
+- The transcripts include comments by the interviewers, labeled as Interviewer 1 or Interviewer. DO NOT code the interviewers’ comments. 
+
+** Output**
+Organize the output in the following way: 
+
+-Paragraph:
+-Primary code:
+-Secondary code(s):
+-Justification:
+-Evidence:
+-Confidence: (your evaluation of how certain you are about your coding: low, medium, high)
+
+Here is an example of how I want the output:
+-Paragraph: 
+John Doe  02:24
+[Insert an example here of an actual interview]
+-Primary code: 
+KU-DEF
+-Secondary code(s): 
+KU-UNCR, KU-CRIT
+-Justification: 
+[Insert example here]
+-Quote: 
+KU-DEF: [insert example]
+-Confidence: Medium
+
+After finishing the coding, provide the following additional information:
+
+1. A short summary of the most frequent codes in the transcript
+2. A list of ambiguous passages
+
+These are the 33 codes with their description: 
+
+<codes>
+KU-DEF:  Provider’s working definition or understanding of U09.9 as a diagnostic code for post-COVID conditions. Includes accurate or inaccurate understandings of what the code captures. INCLUDE: Statements defining what U09.9 means, what it captures, or how the provider conceptualizes post-COVID conditions. EXCLUDE: Descriptions of acute COVID-19 diagnosis (U07.1/U07.2); general ICD-10 knowledge unrelated to U09.9. Exclude if unrelated to application of U09.9 specifically (Consider: DP-TRIG)
+
+KU-CRIT: Provider’s description of explicit decision rules, thresholds, or requirements they use to assign the U09.9 diagnosis code. INCLUDE: Statements of the form: “I code U09.9 when…”; “I require X before I diagnose/code…”; “If they have [test/symptoms/timing], then I use the code”; Requirements such as: documented COVID test vs self-report, symptom duration thresholds, combinations of symptoms, strength of causal link needed EXCLUDE: General descriptions of long COVID symptoms (? KU-DEF); Lists of symptoms without linking them to a coding decision (? DP-TRIG); General uncertainty about diagnosis (? KU-UNCR); Philosophical reasoning without a concrete rule (? DP-PHLS)
+
+KU-GUID:  Awareness or use of clinical guidelines, CDC guidance, WHO definitions, or institutional protocols for diagnosing post-COVID conditions. INCLUDE: Reference to specific guidelines, protocols, institutional algorithms, or formal training received on U09.9. EXCLUDE: Informal peer advice without reference to formal guidance; self-developed rules of thumb (code under KU-CRIT). 
+
+KU-UNCR:  Provider expresses uncertainty, confusion, or lack of whether or how to apply U09.9 in a specific case. INCLUDE: Explicit statements of not knowing, being unsure, feeling undertrained, or finding the diagnosis code ambiguous. EXCLUDE: Statements about the scientific community not having knowledge about Long COVID, generally (code under BR-KNOW). Confident descriptions of diagnostic approach even if criteria differ from guidelines (code under KU-CRIT). KU-UNCR should NOT be co-coded with KU-CRIT unless both are explicitly stated as separate ideas
+
+DP-TRIG:  Clinical triggers or presentations that prompt the provider to consider a U09.9 diagnosis. INCLUDE: Statements describing what makes the provider think of long COVID, such as: “When I see fatigue and brain fog, I start thinking about long COVID”; “If symptoms persist after COVID, I consider it”; “This kind of presentation raises the possibility of long COVID”; Symptom clusters or patterns explicitly linked to consideration, not just description. Clinical scenarios: persistent symptoms after infection, unexplained multi-system complaints, following illness, “Red flags” that trigger evaluation for long COVID. EXCLUDE: Lists or descriptions of symptoms without a link to diagnostic consideration ? KU-DEF; Statements about rules/requirements for assigning the code ? KU-CRIT; General descriptions of long COVID patients or experiences without decision-making context; Post-hoc labeling or reflection without describing a trigger moment; Acute COVID management
+
+DP-DIFF:  Differential diagnosis process: how the provider distinguishes post-COVID conditions from other diagnoses. INCLUDE: Descriptions of ruling out alternative explanations, diagnostic workup strategies, or reasoning through competing diagnoses. EXCLUDE: Straightforward U09.9 application without differential reasoning; discussion of non-COVID differentials unrelated to post-COVID. 
+
+DP-FREQ:  Provider’s self-reported frequency of U09.9 use or perception of how often they encounter post-COVID conditions. INCLUDE: Statements about how often they diagnose U09.9, volume of post-COVID patients, changes over time in frequency. EXCLUDE: Objective frequency data from the quantitative component (this code captures subjective perception only). 
+
+DP-EVOL:  How the provider’s diagnostic approach to U09.9 has changed over time since the code was introduced. INCLUDE: Descriptions of learning curves, shifts in diagnostic threshold, evolving clinical understanding, changing comfort level. EXCLUDE: Static descriptions of current practice without temporal comparison. 
+
+DP-DOCU:  Documentation practices related to U09.9: how the provider records post-COVID conditions in the chart and what they include. INCLUDE: Descriptions of charting practices, note templates, documentation of COVID history, supporting documentation for the code. EXCLUDE: General EHR complaints not specific to U09.9 documentation; billing submission processes (code under BR-BILL). 
+
+DP-PHLS (E):  Provider's overarching clinical philosophy toward diagnosing long COVID, how they weigh pragmatic patient utility against diagnostic precision, and whether they frame long COVID as a novel phenomenon or as continuous with pre-existing post-infectious symptom patterns they have managed throughout their career. INCLUDE: how much evidence they need before LC diagnosis, description of loose or strict application of U09.9, with reasoning. EXCLUDE: description of specific clinical criteria (timing, symptoms, testing) without connection to philosophy (code under KU-CRIT), skepticism of LC as legitimate (code under PB-LEGIT or BR_STIG), Uncertainty or confusion about what the code means or when it applies, without a stated position on how they handle that uncertainty — code under KU-UNCR. Not a "catch-all" code -- if provider  lists specific reasons as to coding practices, those are considered individually. DP-TRIG may be used as well in these cases.
+
+BR-KNOW:  Knowledge gaps as a barrier: insufficient training, unclear guidance, lack of research or clinical trials, or lack of awareness about U09.9. Long COVID, or post-COVID conditions. INCLUDE: Provider attributes underuse or misuse to knowledge deficits—their own or colleagues’. EXCLUDE: Uncertainty expressed about their own knowledge (or colleagues') of the U09.9 diagnosis code (code under KU-UNCR).
+
+BR-TIME:  Time constraints as a barrier: visit length, competing priorities, workload pressure limiting ability to evaluate or diagnose post-COVID conditions. INCLUDE: Explicit mention of insufficient time, rushed visits, competing demands preventing adequate assessment for U09.9. EXCLUDE: General burnout or job dissatisfaction not linked to U09.9 diagnostic capacity. 
+
+BR-BILL:  Billing, coding, and reimbursement barriers: confusion about when U09.9 is appropriate, fear of audit, reimbursement concerns, or coding complexity. INCLUDE: Discussion of coding rules, payer policies, audit concerns, reimbursement incentives or disincentives specific to U09.9. EXCLUDE: General ICD-10 coding frustrations not specific to U09.9; clinical uncertainty (code under KU-UNCR). 
+
+BR-STIG:  Stigma or skepticism as a barrier: provider or institutional skepticism about long COVID as a legitimate diagnosis, or perceived patient stigma. INCLUDE: Doubts about the validity of post-COVID conditions; concerns about labeling patients; dismissiveness from colleagues. EXCLUDE: Clinical uncertainty about diagnosis (code under KU-UNCR); patient-level barriers without stigma component. 
+
+BR-SYS:  System-level barriers: EHR limitations, lack of institutional support, inadequate referral networks, no post-COVID clinic access. INCLUDE: Structural or organizational factors beyond the individual provider that impede U09.9 diagnosis or post-COVID care. EXCLUDE: Individual knowledge or attitude barriers; time pressures (code under BR-TIME). 
+
+BR-PAT:  Patient-level barriers: patients not reporting symptoms, lack of documented COVID history, patients not connecting symptoms to prior COVID, access issues. INCLUDE: Factors originating from the patient side that make U09.9 diagnosis difficult. EXCLUDE: Provider-side barriers projected onto patients; system access issues (code under BR-SYS). 
+
+FA-TRAIN:  Training, education, or information sources that support the provider’s ability to diagnose post-COVID conditions, including a lack of training or education. INCLUDE: CME, institutional training, peer learning, self-directed education, or clinical resources that improved U09.9 use. If providers mention NOT attending trainings, code with this code FA-TRAIN. EXCLUDE: Awareness of guidelines without using them (code under KU-GUID); general medical education not specific to post-COVID.
+
+FA-EHR:  EHR features, clinical decision support, templates, or prompts that facilitate U09.9 diagnosis or documentation. INCLUDE: Specific EHR tools, alerts, templates, or workflows that make it easier to identify or document post-COVID conditions. EXCLUDE: General satisfaction with EHR unrelated to U09.9; EHR barriers (code under BR-SYS). 
+
+FA-TEAM:  Interprofessional support: colleagues, specialists, care coordinators, or institutional structures that support U09.9 identification. INCLUDE: Collaboration, referral relationships, team-based care, or peer consultation that enables post-COVID diagnosis. EXCLUDE: Solo practice descriptions without team support; barriers related to referral networks (code under BR-SYS). 
+
+FA-PEXP:  Patient advocacy or experience as a facilitator: patients who self-identify with long COVID, bring research, or request evaluation. INCLUDE: Patient-initiated conversations about post-COVID symptoms; patient advocacy or self-education that prompts diagnosis. EXCLUDE: Provider-initiated screening; patient barriers (code under BR-PAT). 
+
+FA-Exp (E):  Personal experience with long covid. Description of long covid diagnosis among provider themselves or their friends and family. EXCLUDE: Any quote about a patient, even if it appears the provider knows them well. 
+
+PPC-SPEC:  How the provider’s specialty or scope of practice shapes their engagement with U09.9 and post-COVID conditions. INCLUDE: Statements linking specialty training, scope, or typical patient population to U09.9 diagnostic patterns. EXCLUDE: General descriptions of practice without connection to U09.9; provider demographics captured quantitatively. 
+
+PPC-SETT:  How the practice setting (urban/rural, academic/community, clinic type) influences U09.9 diagnosis patterns. INCLUDE: Descriptions of how geographic location, practice type, patient population characteristics, or resource availability shape post-COVID diagnosis. EXCLUDE: Individual provider preferences unrelated to setting; quantitative setting data without qualitative explanation. 
+
+PPC-VOL:  Provider’s perception of their own patient volume and how it relates to U09.9 frequency—connecting to quantitative diagnosis rates. INCLUDE: Self-assessment of caseload, panel characteristics, or how volume shapes ability to identify post-COVID patients. EXCLUDE: Objective volume data from quantitative component; general workload complaints (code under BR-TIME). 
+
+PPC-Time:  Provider's time spent with each patient. 
+
+PB-LEGIT:  Provider’s beliefs about the legitimacy, validity, or clinical significance of long COVID as a distinct condition. INCLUDE: Statements reflecting whether the provider considers long COVID a real, important, and diagnosable entity. EXCLUDE: Clinical uncertainty about diagnostic criteria (code under KU-UNCR); skepticism from colleagues framed as a barrier (code under BR-STIG). 
+
+PB-PROG:  Provider’s beliefs about prognosis, trajectory, or natural history of post-COVID conditions. INCLUDE: Expectations about recovery timelines, long-term outcomes, or whether the condition is self-limiting. EXCLUDE: Treatment-specific statements without prognostic framing; patient-reported outcome expectations. 
+
+PB-TREAT/UTIL:  Provider’s beliefs about treatability or management of post-COVID conditions and how this affects diagnostic willingness. Provider's beliefs in whether the diagnosis code itself is useful for patients. INCLUDE: Statements about whether diagnosing U09.9 leads to actionable treatment, feelings of therapeutic helplessness, or perceived clinical utility of the diagnosis. If provider is speaking about larger medical community, double code as PPC-NORM. EXCLUDE: Specific treatment protocols without connection to diagnostic decision-making; billing rationale.
+
+PPC-NORM (E):  Provider's perception of how their peers, colleagues, or the broader medical community approach U09.9 diagnosis in practice. Includes beliefs about how common or uncommon rigorous diagnostic criteria adherence is among other providers, perceived community standards around long COVID coding, and observations about what "most people" or "most providers" actually do versus what guidelines recommend. INCLUDE: Statements about what the provider believes other providers are doing with U09.9 (e.g., "most people are just spitballing it," "I don't think anyone is following a strict definition"), Perceptions of how widespread awareness, use, or avoidance of U09.9 is among peers EXCLUDE: Provider describing their own diagnostic philosophy or threshold, even if they believe it's common — code under DP-THRS, General statements about public awareness of long COVID among patients or the lay public — not provider norms, likely uncoded or BR-PAT depending on context. 
+
+PC-Time in medicine: How many years practicing medicine.
+ 
+PC-Specialty: Name of their specialty. 
+
+PC-Current role: Role within their institution or employer. 
+
+PC-Urban or rural:  Is the provider in an urban or rural setting
+</codes> 
+
+This the transcript: 
+
+<transcript>
+Example with synthetic interview showing the transcription structure. 
+
+Interviewer
+Okay, we can go ahead and get started. I'll ask you a few quick questions about your background and your workplace first. So, how long have you been practicing medicine?
+
+Physician
+About 18 years now.
+
+Interviewer
+And what's your specialty?
+
+Physician
+General internal medicine. Primary care.
+
+Interviewer
+And what's your role at your current institution?
+
+Physician
+I'm an associate professor of medicine in the Division of General Internal Medicine, and I'm a primary care physician in our general medicine clinic.
+
+Interviewer
+And how long have you been in that role?
+
+Physician
+In the primary care faculty position, about 14 years. I made associate professor a few years ago, but I don't think that part matters much for what you're asking.
+
+Interviewer
+That's a great milestone, congratulations. And what kind of patients do you see, age, setting, some of their common concerns?
+
+Physician
+It's all outpatient, primary care. Mostly adults across the spectrum, but my panel skews a little older, so the average is probably mid-50s to 60s. I see them for acute visits, for chronic disease management, diabetes, hypertension, that kind of thing, and for annual wellness visits.
+
+Interviewer
+The full range, then. And on average, how much time do you have with each patient?
+
+Physician
+For an acute visit it's about 15 minutes. For an annual it's more like 30, sometimes 40 if it's a complicated patient.
+
+Interviewer
+Okay. And do you refer patients out to specialty care often, or do you tend to manage complex cases yourself?
+
+Physician
+Honestly, both. I manage a lot of complex chronic disease in the clinic, that's most of my day. But there are things I won't try to handle on my own. Long COVID is one of them, actually. If I think someone has it, I refer them out rather than work it up myself.
+
+Interviewer
+And just to confirm, you said general internal medicine, right?
+
+Physician
+Yes, general internal medicine.
+
+Interviewer
+Great. So now I'll move into some questions specifically about long COVID and your experience with it. To start, how do you define long COVID?
+
+Physician
+So, my understanding is that it's not one single thing. It really depends on the person and what they're dealing with. Some patients have ongoing respiratory problems after the initial infection, shortness of breath, reduced exercise tolerance, sometimes lingering oxygen needs if there was real lung injury. Then there's a whole group where it's more about fatigue, this post-exertional crash where they do a little too much and they're wiped out for days. And then some people describe the cognitive piece, the "brain fog," trouble with memory and concentration. A few have what looks like autonomic stuff, racing heart when they stand up, dizziness. So I tend to think of it as having different flavors depending on how it shows up.
+
+Interviewer
+And the definition you just described, is that based on any working definitions in the literature, or from any professional organizations?
+
+Physician
+I mean, I've seen the formal definitions, I know the WHO and the CDC have published criteria, and I've come across them at a conference and in a couple of articles. But what I just gave you is more off the cuff, how I think about it in clinic rather than something I looked up this morning. I do know the timing matters, that the symptoms have to persist for some months after the acute infection, not just the first couple of weeks. That's the "long" part. But I'll be honest, I didn't study for this, so I'm not going to quote you the exact wording.
+
+Interviewer
+No, that's perfect, that's actually what we want, so we're not biasing it.
+
+Physician
+Right, I figured you wanted how I actually work with it, not a textbook answer.
+
+Interviewer
+Exactly. Do you have any concerns about the definitions of long COVID that are currently being used? Maybe thinking back to that conference or those articles?
+
+Physician
+Yeah, a few. The main one is that it's a syndrome made up of a lot of different presentations, so it's not like diagnosing strep with a throat swab or pneumonia with a chest X-ray. There's no single test, no clean biomarker that tells me yes or no. And because the criteria are fairly broad, you end up with patients who clearly have something going on but whose symptoms overlap with a dozen other conditions, depression, thyroid problems, deconditioning, sleep issues. So part of my concern is that the label can be both too broad and not specific enough at the same time. The timing piece isn't the hard part, what's hard is that what a given patient actually needs differs enormously depending on which manifestation they have. So I guess what I'm saying is, it's complicated, and I try not to overthink the labeling. Our long COVID clinic here has basically told us, if you think a patient might have it, just send them and we'll sort it out. Sometimes they find it's something else entirely. So I don't feel like I have to check a box and confirm the definition myself before I refer. They'll take it from there. Does that make sense?
+
+Interviewer
+It does, yeah. It sounds like that relationship with the clinic takes a lot of pressure off. Staying on training for a second, you mentioned a conference. Have you had any other training or guidance on long COVID, and if so, from whom?
+
+Physician
+A bit, here and there. There was a department grand rounds on it maybe a year or two ago, and I've done one or two online webinars. Beyond that, a lot of what I rely on is informal, the clinic that handles these patients sends back really thorough notes, so I've learned a fair amount just from reading their assessments and recommendations. And I'll use a clinical reference tool when something specific comes up. But I haven't had any kind of formal, structured course on it. It's been more piecing it together as the field has evolved.
+
+Interviewer
+That makes sense, and it sounds pretty common from what we've heard.
+</transcript> 
+

@@ -1,0 +1,63 @@
+Interviews were conducted with healthcare providers to understand how they use the Long COVID ICD-10 diagnosis code U09.9, among other topics related to Long COVID. Your task is to carefully read the list of codes and their definition and inclusion criteria. Then you will code an interview. Double-check your work. 
+
+STRICT VERBATIM REQUIREMENT (CRITICAL):
+* You MUST copy the paragraph EXACTLY as it appears in the transcript. 
+* DO NOT summarize, shorten, paraphrase, or use ellipses (…) under ANY circumstances. 
+* DO NOT omit any words, even if the paragraph is long or repetitive. 
+* DO NOT clean up grammar, remove filler words, or modify punctuation. 
+* The paragraph must be a full, word-for-word reproduction of the original transcript text. 
+* If the paragraph is long, include it in full anyway. 
+If you fail to reproduce the paragraph verbatim, the response is incorrect.
+
+**Other Context**
+- Interviewees are medical providers.
+- When providers discuss symptoms, they refer to patients.
+
+**Rules to follow**
+- Apply a code only when there is clear evidence in the passage.
+- Multiple codes may be applied only if each is independently supported.
+- Prefer to under-code than to over-code.
+- Do not infer beyond what is stated or strongly implied.
+- The transcripts include comments by the interviewers, labeled as Interviewer 1 or Interviewer. DO NOT code the interviewers’ comments. 
+
+** Output**
+Organize the output in the following way: 
+
+-Paragraph:
+-Primary code:
+-Secondary code(s):
+-Justification:
+-Evidence:
+-Confidence: (your evaluation of how certain you are about your coding: low, medium, high)
+
+Here is an example of how I want the output:
+-Paragraph: 
+John Doe  02:24
+[Insert an example here of an actual interview]
+-Primary code: 
+KU-DEF
+-Secondary code(s): 
+KU-UNCR, KU-CRIT
+-Justification: 
+[Insert example here]
+-Quote: 
+KU-DEF: [insert example]
+-Confidence: Medium
+
+After finishing the coding, provide the following additional information:
+
+1. A short summary of the most frequent codes in the transcript
+2. A list of ambiguous passages
+
+These are the 33 codes with their description: 
+
+<codes> 
+
+</codes> 
+
+This the transcript: 
+
+<transcript>
+
+</transcript> 
+

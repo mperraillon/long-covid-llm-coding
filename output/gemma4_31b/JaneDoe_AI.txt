@@ -1,0 +1,148 @@
+===== RUN METADATA =====
+transcript : JaneDoe_AI
+timestamp  : 2026-06-07T15:42:10
+elapsed_s  : 259.9
+params     : {"model": "gemma4:31b", "temperature": 0.8, "top_p": 0.9, "top_k": 64, "num_ctx": 33000, "seed": 42}
+========================
+
+-Paragraph: 
+Physician
+About 18 years now.
+-Primary code: 
+PC-Time in medicine
+-Secondary code(s): 
+None
+-Justification: 
+The provider states how many years they have been practicing medicine.
+-Evidence: 
+PC-Time in medicine: “About 18 years now.”
+-Confidence: High
+
+-Paragraph: 
+Physician
+General internal medicine. Primary care.
+-Primary code: 
+PC-Specialty
+-Secondary code(s): 
+None
+-Justification: 
+The provider identifies their medical specialty.
+-Evidence: 
+PC-Specialty: “General internal medicine. Primary care.”
+-Confidence: High
+
+-Paragraph: 
+Physician
+I'm an associate professor of medicine in the Division of General Internal Medicine, and I'm a primary care physician in our general medicine clinic.
+-Primary code: 
+PC-Current role
+-Secondary code(s): 
+None
+-Justification: 
+The provider describes their current professional role and institutional position.
+-Evidence: 
+PC-Current role: “I'm an associate professor of medicine in the Division of General Internal Medicine, and I'm a primary care physician in our general medicine clinic.”
+-Confidence: High
+
+-Paragraph: 
+Physician
+For an acute visit it's about 15 minutes. For an annual it's more like 30, sometimes 40 if it's a complicated patient.
+-Primary code: 
+PPC-Time
+-Secondary code(s): 
+None
+-Justification: 
+The provider specifies the amount of time they spend with patients during different types of visits.
+-Evidence: 
+PPC-Time: “For an acute visit it's about 15 minutes. For an annual it's more like 30, sometimes 40 if it's a complicated patient.”
+-Confidence: High
+
+-Paragraph: 
+Physician
+Honestly, both. I manage a lot of complex chronic disease in the clinic, that's most of my day. But there are things I won't try to handle on my own. Long COVID is one of them, actually. If I think someone has it, I refer them out rather than work it up myself.
+-Primary code: 
+FA-TEAM
+-Secondary code(s): 
+None
+-Justification: 
+The provider describes their practice of referring suspected long COVID cases to other providers/specialists as a way of managing the condition.
+-Evidence: 
+FA-TEAM: “But there are things I won't try to handle on my own. Long COVID is one of them, actually. If I think someone has it, I refer them out rather than work it up myself.”
+-Confidence: High
+
+-Paragraph: 
+Physician
+Yes, general internal medicine.
+-Primary code: 
+PC-Specialty
+-Secondary code(s): 
+None
+-Justification: 
+The provider confirms their specialty.
+-Evidence: 
+PC-Specialty: “Yes, general internal medicine.”
+-Confidence: High
+
+-Paragraph: 
+Physician
+So, my understanding is that it's not one single thing. It really depends on the person and what they're dealing with. Some patients have ongoing respiratory problems after the initial infection, shortness of breath, reduced exercise tolerance, sometimes lingering oxygen needs if there was real lung injury. Then there's a whole group where it's more about fatigue, this post-exertional crash where they do a little too much and they're wiped out for days. And then some people describe the cognitive piece, the "brain fog," trouble with memory and concentration. A few have what looks like autonomic stuff, racing heart when they stand up, dizziness. So I tend to think of it as having different flavors depending on how it shows up.
+-Primary code: 
+KU-DEF
+-Secondary code(s): 
+None
+-Justification: 
+The provider describes their conceptualization and working understanding of what constitutes long COVID/post-COVID conditions, noting its heterogeneity and various "flavors" or symptom clusters.
+-Evidence: 
+KU-DEF: “So, my understanding is that it's not one single thing. It really depends on the person and what they're dealing with. Some patients have ongoing respiratory problems after the initial infection, shortness of breath, reduced exercise tolerance, sometimes lingering oxygen needs if there was real lung injury. Then there's a whole group where it's more about fatigue, this post-exertional crash where they do a little too much and they're wiped out for days. And then some people describe the cognitive piece, the "brain fog," trouble with memory and concentration. A few have what looks like autonomic stuff, racing heart when they stand up, dizziness. So I tend to think of it as having different flavors depending on how it shows up.”
+-Confidence: High
+
+-Paragraph: 
+Physician
+I mean, I've seen the formal definitions, I know the WHO and the CDC have published criteria, and I've come across them at a conference and in a couple of articles. But what I just gave you is more off the cuff, how I think about it in clinic rather than something I looked up this morning. I do know the timing matters, that the symptoms have to persist for some months after the acute infection, not just the first couple of weeks. That's the "long" part. But I'll be honest, I didn't study for this, so I'm not going to quote you the exact wording.
+-Primary code: 
+KU-GUID
+-Secondary code(s): 
+KU-DEF
+-Justification: 
+The provider expresses awareness of formal guidelines from the WHO and CDC (KU-GUID). They also provide their understanding of a specific diagnostic requirement—the temporal threshold for symptoms (KU-DEF).
+-Evidence: 
+KU-GUID: “I mean, I've seen the formal definitions, I know the WHO and the CDC have published criteria, and I've come across them at a conference and in a couple of articles.”
+KU-DEF: “I do know the timing matters, that the symptoms have to persist for some months after the acute infection, not just the first couple of weeks. That's the "long" part.”
+-Confidence: High
+
+-Paragraph: 
+Physician
+Yeah, a few. The main one is that it's a syndrome made up of a lot of different presentations, so it's not like diagnosing strep with a throat swab or pneumonia with a chest X-ray. There's no single test, no clean biomarker that tells me yes or no. And because the criteria are fairly broad, you end up with patients who clearly have something going on but whose symptoms overlap with a dozen other conditions, depression, thyroid problems, deconditioning, sleep issues. So part of my concern is that the label can be both too broad and not specific enough at the same time. The timing piece isn't the hard part, what's hard is that what a given patient actually needs differs enormously depending on which manifestation they have. So I guess what I'm saying is, it's complicated, and I try not to overthink the labeling. Our long COVID clinic here has basically told us, if you think a patient might have it, just send them and we'll sort it out. Sometimes they find it's something else entirely. So I don't feel like I have to check a box and confirm the definition myself before I refer. They'll take it from there. Does that make sense?
+-Primary code: 
+DP-PHLS (E)
+-Secondary code(s): 
+DP-DIFF, FA-TEAM
+-Justification: 
+The provider discusses their philosophy of not "overthinking the labeling" and prioritizing pragmatic referral over strict diagnostic precision (DP-PHLS). They also describe the differential diagnosis challenge where LC symptoms overlap with other conditions like depression or thyroid issues (DP-DIFF), and they mention the institutional support provided by their specific long COVID clinic (FA-TEAM).
+-Evidence: 
+DP-PHLS (E): “So I guess what I'm saying is, it's complicated, and I try not to overthink the labeling. ... So I don't feel like I have to check a box and confirm the definition myself before I refer.”
+DP-DIFF: “And because the criteria are fairly broad, you end up with patients who clearly have something going on but whose symptoms overlap with a dozen other conditions, depression, thyroid problems, deconditioning, sleep issues.”
+FA-TEAM: “Our long COVID clinic here has basically told us, if you think a patient might have it, just send them and we'll sort it out. Sometimes they find it's something else entirely.”
+-Confidence: High
+
+-Paragraph: 
+Physician
+A bit, here and there. There was a department grand rounds on it maybe a year or two ago, and I've done one or two online webinars. Beyond that, a lot of what I rely on is informal, the clinic that handles these patients sends back really thorough notes, so I've learned a fair amount just from reading their assessments and recommendations. And I'll use a clinical reference tool when something specific comes up. But I haven't had any kind of formal, structured course on it. It's been more piecing it together as the field has evolved.
+-Primary code: 
+FA-TRAIN
+-Secondary code(s): 
+None
+-Justification: 
+The provider discusses various sources of information and training (grand rounds, webinars, reading notes from specialists) and explicitly mentions a lack of formal structured courses.
+-Evidence: 
+FA-TRAIN: “There was a department grand rounds on it maybe a year or two ago, and I've done one or two online webinars. ... But I haven't had any kind of formal, structured course on it.”
+-Confidence: High
+
+***
+
+**1. Summary of most frequent codes**
+The most frequent codes in this transcript are related to the provider's professional background (**PC-Specialty**, **PC-Current role**, **PC-Time in medicine**) and their conceptual understanding of the condition (**KU-DEF**). There is also significant emphasis on how the provider manages the diagnosis through institutional support and referrals (**FA-TEAM**) and their pragmatic philosophy toward labeling patients before referral (**DP-PHLS (E)**).
+
+**2. List of ambiguous passages**
+- The passage where the physician describes their patient panel ("Mostly adults across the spectrum, but my panel skews a little older...") was considered for **PPC-SETT**, but ultimately not coded because the provider does not explicitly link these population characteristics to how they diagnose or use the U09.9 code.
+- The mention of "piecing it together as the field has evolved" in the final paragraph could potentially be **DP-EVOL**, but since it is framed within a discussion about training and information sources, it was coded under **FA-TRAIN**.
